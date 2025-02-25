@@ -1,0 +1,20 @@
+{
+  "name": "spring-petclinic",
+  "engineVersion": "v0.16.2-010101000000-dev-18fbee2eb2c2",
+  "sdk": {
+    "source": "java"
+  },
+  "dependencies": [
+    {
+      "name": "maven",
+      "source": "github.com/eunomie/maven",
+      "pin": "78a727117eee9ce0830c89f67a665f8ad402a768"
+    },
+    {
+      "name": "jre",
+      "source": "github.com/eunomie/jre",
+      "pin": "8a1dcef62ea7815a6cfa4a6ed098c3aea8d0dd86"
+    }
+  ],
+  "source": ".dagger"
+}
