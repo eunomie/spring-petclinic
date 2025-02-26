@@ -12,8 +12,7 @@ public class SpringPetclinic extends AbstractModule {
   @Function
   public Service service(@DefaultPath("/") @Ignore({".dagger"}) Directory source) {
     return dag.jre()
-        .container()
-        .withJar(dag.maven().container().withSources(source).pkg().jar())
+        .withJar(dag.maven().withSources(source).pkg().jar())
         .withExposedPort(8080)
         .runAsService();
   }

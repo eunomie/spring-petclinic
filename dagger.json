@@ -8,12 +8,12 @@
     {
       "name": "maven",
       "source": "github.com/eunomie/maven",
-      "pin": "78a727117eee9ce0830c89f67a665f8ad402a768"
+      "pin": "412cdf2464022845e59dfba31ef3800502157cf0"
     },
     {
       "name": "jre",
       "source": "github.com/eunomie/jre",
-      "pin": "8a1dcef62ea7815a6cfa4a6ed098c3aea8d0dd86"
+      "pin": "53b25816c7cafea61dcf46decd96e21e3b25c8d5"
     }
   ],
   "source": ".dagger"
